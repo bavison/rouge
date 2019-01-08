@@ -8,7 +8,7 @@ module Rouge
       desc "Makefile syntax"
       tag 'make'
       aliases 'makefile', 'mf', 'gnumake', 'bsdmake'
-      filenames '*.make', 'Makefile', 'makefile', 'Makefile.*', 'GNUmakefile'
+      filenames '*.make', 'Makefile', 'makefile', 'Makefile.*', 'GNUmakefile', '*.mk', '*,fe1'
       mimetypes 'text/x-makefile'
 
       bsd_special = %w(

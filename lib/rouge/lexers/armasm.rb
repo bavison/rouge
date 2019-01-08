@@ -7,7 +7,7 @@ module Rouge
       title "ArmAsm"
       desc "Arm assembly syntax"
       tag 'armasm'
-      filenames '*.s'
+      filenames '*.s', 'VersionASM'
 
       state :root do
         rule /\n/, Text
